@@ -87,7 +87,8 @@ p {
     background-color: var(--terciario);
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 2rem;
 }
 .proyectos {
@@ -97,4 +98,49 @@ p {
 .proj_h2 {
     text-align: center;
     color: var(--blanco);
+}
+.contenedor_about_me   {
+    background-color: var(--fondo);
+    color: var(--terciario);
+    display: flex;
+    justify-items: center;
+}
+.about_me{
+    margin: 1.5rem;
+}
+.resume {
+    display: flex;
+    justify-content: space-around;
+
+}
+.but_resume {
+    width: 10rem;
+    height: 5rem;
+    color: var(--blanco);
+    border-color: var(--secundario);
+    background-color: var(--secundario);
+    margin: auto;
+    padding: auto;
+    border-radius: 50rem;
+}
+.contactame {
+    background-color: var(--secundario);
+}
+.formulario {
+    width: 50%;
+    display: flexbox;
+    justify-content: center;
+    background-color: var(--terciario);
+    color: var(--blanco);
+
+}
+.foot  {
+    background-color: var(--terciario);
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+
+}
+.redes  {
+    justify-self: flex-start;
 }
