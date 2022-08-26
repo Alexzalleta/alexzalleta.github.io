@@ -15,6 +15,9 @@ body {
     font-size: 16px; /* 1rem= 10px */
     font-family: 'EB Garamond', serif;
 }
+button {
+    cursor: pointer;
+}
 .nav_bar {
     background-color: var(--secundario);
 }
@@ -63,4 +66,35 @@ p {
     height: 3.5rem;
     padding: .1rem 1.5rem;
     border-radius: 20%;
+}
+.terms  {
+    font-size: 1.5rem;
+}
+.nav_button {
+    color: var(--blanco);
+    background-color: var(--secundario);
+    border: var(--secundario);
+}
+.nav_button:hover {
+    color: var(--terciario);
+}
+.terminos {
+    text-decoration: none;
+    color: var(--negro);
+    font-weight: 600;
+}
+.contenedor_proyectos {
+    background-color: var(--terciario);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.proyectos {
+    background-color: var(--terciario); 
+    color: var(--blanco);
+}
+.proj_h2 {
+    text-align: center;
+    color: var(--blanco);
 }
