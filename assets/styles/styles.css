@@ -144,3 +144,13 @@ p {
 .redes  {
     justify-self: flex-start;
 }
+.svgs {
+    color: var(--blanco);
+}
+.foot_links {
+    text-decoration: none;
+    color: var(--blanco);
+}
+.lista {
+    list-style: none;
+}
