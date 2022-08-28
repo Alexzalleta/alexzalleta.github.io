@@ -65,7 +65,7 @@ p {
 .enviar {
     height: 3.5rem;
     padding: .1rem 1.5rem;
-    border-radius: 20%;
+    border-radius: 5rem;
 }
 .terms  {
     font-size: 1.5rem;
@@ -127,7 +127,7 @@ p {
     background-color: var(--secundario);
 }
 .formulario {
-    width: 50%;
+    width: 100%;
     display: flexbox;
     justify-content: center;
     background-color: var(--terciario);
@@ -143,14 +143,32 @@ p {
 }
 .redes  {
     justify-self: flex-start;
+    margin: 1rem;
 }
 .svgs {
     color: var(--blanco);
+}
+.svgs :hover {
+    color: var(--primario);
 }
 .foot_links {
     text-decoration: none;
     color: var(--blanco);
 }
+.foot_links:hover {
+    color: var(--primario);
+}
 .lista {
     list-style: none;
+}
+.form_contacto  {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto {
+    width: 85%;
+    margin: 2.5rem;
+}
+.divs {
+    width: 30%;
 }
